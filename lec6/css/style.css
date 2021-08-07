@@ -1,0 +1,35 @@
+/* h2 {
+    color: blue;
+}
+p {
+    color: red;
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 100px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Content Delivery Network => CDN */
+
+body {
+    font-family: 'Style Script';
+}
+
+h4 {
+    font-family: 'Anton';
+}
+
+#first {
+    color: green;
+}
+
+.second {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
