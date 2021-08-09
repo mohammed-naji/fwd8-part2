@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); */
+
+@font-face {
+    font-family: 'Mohammed Naji';
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+body {
+    font-family: 'Mohammed Naji';
+    margin: 0;
+}
+
+div {
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+#div1 {
+    /* width: 200px;
+    height: 200px; */
+    background: red;
+    /* color: white; */
+
+    /*margin: 20px;*/ /* all directions */
+    /*margin: 20px 40px;*/ /*top,bottom left,right*/
+    /*margin: 20px 40px 60px;* /* top right,left bottom*/
+    /*margin: 20px 40px 60px 80px;*/ /*top right bottom left*/
+    /* margin-bottom: 50px; */
+
+    /* margin: 0 0 80px; */
+    /* margin: 0 0 80px 0; */
+    /* margin-bottom: 80px; */
+
+    /* border: 1px solid gray;
+    border-top: 5px black solid; */
+
+    /* border-radius: 50%; */
+    /* border-bottom: 5px black solid; */
+    /* border: 5px black dashed; */
+    /* border: 5px black dotted; */
+
+    padding: 50px;
+}
+
+#div2 {
+    /* margin-top: 80px; */
+    /* margin: 80px 0 0; */
+    margin: 80px 0 0 0;
+    /* width: 200px;
+    height: 200px; */
+    background: blue;
+    /* color: black; */
+    /* color: white; */
+}
+
+#div3 {
+    /* width: 200px;
+    height: 200px; */
+    /* background: black; */
+    /* color: white; */
+
+    background: #ddd;
+}
+/* 
+- Box Model 
+1. Margin
+2. Border
+3. Padding
+4. Content */
+
+/* - Color Type 
+1. Name => red, black, blue 
+2. RGB => rgb(0..255, 0..255, 0..255 )
+3. RGBA => rgba(0..255, 0..255, 0..255, 0..1)
+4. Hex => #0..9A..F
+*/
