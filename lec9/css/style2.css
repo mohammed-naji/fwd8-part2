@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+}
+
+.team {
+    padding: 80px 0;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member {
+    width: 32%;
+}
+
+
+.member img {
+    width: 100%;
+}
+
+footer {
+    background: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer a {
+    color: #f00;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
