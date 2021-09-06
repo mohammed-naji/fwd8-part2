@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .header-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header .header-content ul li {
+    margin: 0 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.about {
+    padding: 80px 0;
+}
+
+.about .about-content {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.about .about-content div {
+    width: 50%;
+    margin: 1.5%;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact {
+    background: #f7f7f7;
+    padding: 80px 0;
+}
+
+.contact form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 20px;
+    outline: 0;
+}
+
+.contact form div {
+    text-align: right;
+}
+
+.contact form button {
+    background: rgb(81, 142, 255);
+    color: #fff;
+    border: 0;
+    padding: 15px 60px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.contact form button:hover {
+    background: rgb(247, 22, 255);
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
