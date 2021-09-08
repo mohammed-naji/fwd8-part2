@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items .item {
+    width: 23%;
+    margin: 1%;
+    height: 200px;
+    background: #741258;
+}
+
+
+
+
+/* Media for mobile */
+@media (max-width: 600px) {
+    /* body {
+        background: #f00;
+        color: #fff;
+    } */
+
+    .items .item {
+        width: 98%;
+    }
+}
+
+/* Media for desktop */
+@media (min-width: 1200px) {
+    /* body {
+        background: #000;
+        color: #fff;
+    } */
+}
+
+/* Media for Ipad */
+@media (min-width: 600px) and (max-width: 1200px) {
+    /* body {
+        background: #00f;
+        color: #fff;
+    } */
+
+    .items .item {
+        width: 48%;
+    }
+}
